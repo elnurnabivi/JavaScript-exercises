@@ -5,6 +5,7 @@ let sum = 0;
 for (i = 1; i <= requestedNumber; i++) {
   sum += i;
 }
+
 console.log(sum);
 
 // +2. Request two numbers and find only their largest common divisor.
