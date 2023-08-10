@@ -89,8 +89,8 @@ if (perfect(perfectN)) {
 
 // +7.Write a function that accepts time (hours, minutes, seconds) and returns a string in the format hh:mm:ss. If the seconds are not given, they should be displayed as 00.
 let h = prompt("Write an hour");
-let m = prompt("Write a minute");
-let s = prompt("Write a second") || "00";
+let m = prompt("Write a minute ");
+let s = prompt("Write a second ") || "00";
 function time(hours, minutes, seconds) {
   hours = hours.padStart(2, "0");
   minutes = minutes.padStart(2, "0");
