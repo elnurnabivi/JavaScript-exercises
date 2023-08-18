@@ -21,7 +21,8 @@ clickSubmit.addEventListener("click", (event) => {
 });
 
 //Deleting a song
-// COULDN"T SOLVE. I don't know why it doesn't delete when I click on the image. I am thinking maybe I add newEntry inside the function createNewEntry(). And it maybe because it is not a global var.
+// NOTE FOR IVO
+//COULDN"T SOLVE. I don't know why it doesn't delete when I click on the image. I am thinking maybe I add newEntry inside the function createNewEntry(). And it maybe because it is not a global var.
 const deleteIcons = document.querySelectorAll(".can");
 deleteIcons.forEach((deleteIcon) => {
   deleteIcon.addEventListener("click", (event) => {
