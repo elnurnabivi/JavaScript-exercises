@@ -1,3 +1,4 @@
+// ● Create a functioning calculator using jQuery
 $(document).ready(() => {
   let result;
   let screen = $(".screen");
